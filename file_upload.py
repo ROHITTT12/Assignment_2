@@ -1,3 +1,10 @@
+"""
+Run on commond line pass argument like :-
+
+python3 p.py --source_dir /home/rohit/tweet_data  --mysql_info /home/rohit/mysql_cre.json --destination_table  test3
+
+"""
+
 import argparse
 import pandas as pd
 import glob
